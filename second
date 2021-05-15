@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int arr[3][3]={{1,2,3},{4,5,6},{7,5,9} };
+	int i;
+	int j;
+	int isEnd=0 ;
+	int temp;
+	for(i=0;i<=2;i++)
+	{
+		for(j=0;j<=2;j++)
+		{
+		temp=arr[i][j];
+		if (temp==5)
+		{
+		printf("第一次出现5的下标：%d,%d\n",i,j);
+		isEnd=1;
+		break;
+		}
+		}
+		if(isEnd)
+		break;
+	}
+	
+	
+	
+	return 0;
+}
