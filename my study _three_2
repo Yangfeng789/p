@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>//程序中使用-strlen  故需引用此头文件。
+int main()
+{
+	char arr1[]="abc";
+	//char arr2[]={'a','b','c',0};
+	char arr2[]={'a','b','c'};
+	printf("%d\n",strlen(arr1));//strlen___string length (字符的长)
+	printf("%d\n",strlen(arr2));
+	return 0;
+
+}
