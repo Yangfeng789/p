@@ -1,0 +1,13 @@
+#include<stdio.h>//(字符串和数组)
+int main()
+{
+	//char arr1[]={'a' ,'b', 'c'};
+	//char arr1[]={'a' ,'b', 'c',0};
+	//char  arr2[]={"abc"};
+	//printf(" %s\n",arr1);（数组输出用‘%s’）
+	//printf(" %s\n",arr2);
+	char  c='a';
+	printf("%d\n",c);//字符的ASCII值  输出用‘%d'
+	printf("%c\n",c);//输出字符 “%c”
+	return 0;
+}
