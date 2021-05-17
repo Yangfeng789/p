@@ -1,0 +1,29 @@
+#include<stdio.h>//(循环语句）（while,for)
+int main()
+{
+	int line=0;
+	printf("加入比特\n");
+	for (;line<=20;line++)
+	{
+	printf("敲入一行代码：%\n",line);
+	}if(line>20)
+	{
+	printf("好offer",line);
+	}
+	/*while(line<20)
+	{
+	printf("敲入第一行代码：%\n",line);
+	line++;
+	}
+	if(line>20)
+	{
+	printf("好offer",line);
+	}*/
+
+
+
+
+
+
+
+}
