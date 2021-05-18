@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a=7;//111
+	int b=5;//101
+	//int c=a&b;（101）//“与”
+	//int c=a|b;（111）//"或"
+	int c=a^b;//（010）"异或"对应二进制位相同为0，相异为1
+	printf("%d\n",c);
+	return 0;
+}
