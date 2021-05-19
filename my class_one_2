@@ -1,0 +1,84 @@
+//#include<stdio.h>   【函数】
+//void cefang(int,int);//声明函数   (次方)
+//void cefang(int ds,int cs)//定义函数，实现逻辑运算   
+//{
+//	int i;
+//	int s=1;
+//	for(i=1;i<=cs;i++)
+//	{
+//	s=s*ds;
+//	}
+//	printf("%d\n",s);
+////int main()
+////{
+////	int ds=5;
+////	int cs=5;
+////	int i;
+////	int s=1;
+////	for(i=1;i<=cs;i++)
+////	 {
+////	   s=s*ds;
+////	 }
+////	 printf("%d\n",s);
+//	
+//}
+//void main()
+//{
+//	cefang(5,3);
+//	cefang(5,5);
+//}
+////#include<stdio.h>
+//void jiecheng(int,int);
+////void jiecheng(int);//阶乘
+//void jiecheng(int ds,int cs)
+////void jiecheng(int js)
+////{
+////	int i;
+////	int s=1;
+////	for(i=js;i>=1;i--)
+////	{
+////		s=s*i;
+////	}
+////	printf("%d\n",s);
+////}
+
+ ////void main()
+	///*{
+	//jiecheng(6);
+	//}*/
+//{
+//	
+//	int s=1;
+//	for(cs=1;cs<=5;cs++)
+//	{
+//	s=s*cs;
+//	}
+//	printf("%d\n",s);
+//}
+//void main()
+//{
+//jiecheng(5,1);
+//}
+
+#include<stdio.h>
+void cfang(int,int);
+void cfang(int ds,int cs)
+ {
+ 
+ int i;
+ int s=1;
+ for(i=1;i<=cs;i++)
+ {
+ s=s*ds;
+ }
+
+ printf("%d\n",s);
+
+ }
+ 
+int main()
+ {
+ cfang(5,5);
+ cfang(5,3);
+ return 0;
+ }
