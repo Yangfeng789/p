@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	/*int b=a++;//先赋值再++
+	printf("%d\n",a);
+	printf("%d\n",b);
+	return 0;
+*/
+	int b=++a;//先++再赋值
+	printf("%d\n",b);
+	printf("%d\n",a);
+	return 0;
+}
