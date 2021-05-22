@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a=3;//011
+	int b=5;//101
+	int c=a&b;//001
+	int d=a|b;//111
+	printf("%d\n",c);
+	printf("%d\n",d);
+	return 0;
+}
