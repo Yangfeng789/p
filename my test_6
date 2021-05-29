@@ -1,0 +1,26 @@
+#include<stdio.h>//小球弹跳
+#include<windows.h>
+int main()
+{
+	int h=10;
+	int isDown=1;
+	while(true)
+	{
+	Sleep(1000);
+	system("cls");
+	int i=0;
+	while(i<h)
+	{
+	printf("\n");
+	i++;
+	}
+	printf("       ");
+	printf("o");
+	h++;
+	
+	
+	}
+	return 0;
+
+
+}
