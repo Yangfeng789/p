@@ -1,0 +1,25 @@
+#include<stdio.h>//【5】打印100-200之间的素数。法二：
+#include<math.h>
+int main()
+{
+	int i,j;
+	int count=0;
+	for(i=100;i<=200;i++)
+	{
+	for(j=2;j<=sqrt(i);j++)//sqrt-开平方   注：这个是C中函数，其源程序应为：.c 而不是.cpp
+		//将C++中源程序改为C中源程序：重命名-将.cpp改为.c-然后Enter
+	{
+	if(i%j==0)
+	{
+	break;
+	}
+	}
+	if(j>sqrt(i))
+	{
+	count++;
+	printf("%d ",i);
+	}
+	}
+	printf("\ncount=%d\n",count);
+	return 0;
+}
