@@ -1,0 +1,28 @@
+#include<stdio.h>//【4】打印闰年
+int main()
+{
+	int year=0;
+	int count=0;
+	for(year=1000;year<=2000;year++)//判断year是否是闰年
+	{
+	/*if(year%4==0&&year%100!=0)//1.能被4整除而不能被100整除
+	                            //2.能被400整除
+	{                           //二者满足其一
+	printf(" %d",year);
+	count++;
+	}
+	else if(year%400==0)
+	{
+	printf(" %d",year);
+	}
+	}*/
+	if(year%4==0&&year%100!=0||year%400==0)
+	{
+	printf(" %d",year);
+	count++;
+	}
+	//count++; ——注意count的位置，思考它是在循环里还是循环外。
+	}
+	printf("\ncount=:%d\n",count);
+	return 0;
+}
