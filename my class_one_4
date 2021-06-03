@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	char arr1[]="556462541";
+	char arr2[]="56";
+	char arr3[]="5648913";
+	int temp;
+	int sz1=sizeof(arr1)/sizeof(arr1[0]);
+	int sz2=sizeof(arr2)/sizeof(arr2[0]);
+	int sz3=sizeof(arr3)/sizeof(arr3[0]);
+	if(sz1>sz2)
+	{
+	temp=sz1;
+	sz1=sz2;
+	sz2=temp;
+	}
+	if(sz1>sz3)
+	{
+	temp=sz1;
+	sz1=sz3;
+	sz3=temp;
+	}
+if(sz2>sz3)
+	{
+	temp=sz2;
+	sz2=sz3;
+	sz3=temp;
+}
+printf("从小到大：%d,%d,%d",sz1,sz2,sz3);
+return 0;
+}
